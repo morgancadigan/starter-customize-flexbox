@@ -115,6 +115,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #content {
@@ -136,7 +137,8 @@ body {
 }
 
 #content p span {
-  font-family: 'Lora', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 #contact {
@@ -149,7 +151,7 @@ body {
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
-  margin: 0 30px;
+  margin: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
